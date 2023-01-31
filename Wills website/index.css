@@ -1,0 +1,15 @@
+html{min-height: 100%; }
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+    background:linear-gradient(to bottom left,red,  blue, white);
+    background-repeat:no-repeat;
+    width:95%;
+    max-width: 990px;
+    margin: 0 auto;
+}
+h1{text-align: center; font-size: 3rem; color: silver;}
+#contaner{display: flex;}
+#para{ color: silver; margin-left: 1.5rem;}
+#para2{ color: silver; margin-left: 1.5rem;}
+h2{text-align: center; color: silver; margin-left: 1.5rem;}
+ul li{color: silver; margin-left: 1.5rem;}
