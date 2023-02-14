@@ -7,6 +7,10 @@
     <meta name="description" content="website hosting my homework for CIS 126">
     <meta name="authur" content="Will C. Duncan IV">
     <link rel="stylesheet" href="index.css">
+    <script
+        src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+        crossorigin="anonymous"></script>
     <script src="index.js"></script>
     <title>CIS 128 Homework Website</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,10 +18,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>CIS 128 Homework Website</h1>
+    <h1 id="heading">CIS 128 Homework Website</h1>
     <div id="contaner">
-        <div id="pic">
-        <img src="IMG_3946.jpg" alt="me in my football gear during a game">
+        <div id="picture">
+        <img id="image" src="IMG_3946.jpg" alt="me in my football gear during a game">
         </div>
         <div id="para">
             <p>My name is Will Duncan IV i've been a stundent here for about 3.5 years. I am currently working twords a degree in Web & Mobile App Development and im about 77% done!</p>
@@ -27,15 +31,16 @@
     <p id="para2"> i am taking this class because of 2 reasons. One it was one of the only classes fro my major that was open this semster. Two im intrested in any coding classes i can take</p>
     <h2>Technologies for this class</h2>
     <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
+        <li class="rfc">HTML</li>
+        <li class="rfc">CSS</li>
+        <li class="rfc">JavaScript</li>
     </ul>
     <h2>Resources</h2>
     <ul>
-        <li><a href="https://www.youtube.com/@Dani_Krossing"> Dani_Krossing</a> - Dani Krossing is a beginner friendly full stack engineer. he makes projects that are easy to fallow and done at a good pace that can help you lern. </li>
-        <li><a href="https://www.youtube.com/@javascriptmastery"> javascriptmastery </a> - javascriptmastery is a front end engineer that makes content vary similar Dani Krossing so if you cant find somthing on Dani Krossings chanel you can probably find it on javascriptmastery or vise versa  </li>
-        <li><a href="https://www.w3schools.com/" >W3Schools</a> - A popular online learning platform for web development technologies with tutorials and examples.</li>
+        <li class="R"><a href="https://www.youtube.com/@Dani_Krossing" target="_blank" rel="noopener noreferrer" > Dani_Krossing</a>  - Dani Krossing is a beginner friendly full stack engineer. he makes projects that are easy to fallow and done at a good pace that can help you lern.  </li>
+        <li class="R"><a href="https://www.youtube.com/@javascriptmastery" target="_blank" rel="noopener noreferrer" > javascriptmastery </a> - javascriptmastery is a front end engineer that makes content vary similar Dani Krossing so if you cant find somthing on Dani Krossings chanel you can probably find it on javascriptmastery or vise versa  </li>
+        <li class="R"><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer" >W3Schools</a> - A popular online learning platform for web development technologies with tutorials and examples.</li>
     </ul>
+    <button id="animate-button">Animate</button>
 </body>
 </html>

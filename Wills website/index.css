@@ -1,4 +1,6 @@
-html{min-height: 100%; }
+html{
+    min-height: 100%; 
+}
 body{
     font-family: 'Rubik Mono One', sans-serif;
     background:linear-gradient(to bottom left,red,  blue, white);
@@ -7,9 +9,65 @@ body{
     max-width: 990px;
     margin: 0 auto;
 }
-h1{text-align: center; font-size: 3rem; color: silver;}
-#contaner{display: flex;}
-#para{ color: silver; margin-left: 1.5rem;}
-#para2{ color: silver; margin-left: 1.5rem;}
-h2{text-align: center; color: silver; margin-left: 1.5rem;}
-ul li{color: silver; margin-left: 1.5rem;}
+#heading{text-align: center; 
+    font-size: 3rem; 
+    color: silver;
+}
+    #contaner{
+        display: flex;
+    }
+    #para{ 
+        color: silver; 
+        margin-left: 1.5rem;
+    }
+    #para2{ 
+        color: silver; 
+        margin-left: 1.5rem;
+    }
+h2{
+    text-align: center; color: silver; 
+    margin-left: 1.5rem;
+}
+
+ul li{
+    color: silver; 
+    margin-left: 1.5rem;
+}
+#image {
+    border: 0;
+  }
+#animate-button {
+    text-align: center; 
+    font-size: 3rem; 
+    color: gold;
+    background:linear-gradient(to bottom left,red,  blue, white);
+  }  
+a{
+    color: gold
+}
+@media only screen and (max-width: 740px) {
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;   
+    }
+    #image {
+        width: 8rem;
+    }
+    p{ 
+        font-size: .8rem;
+    }
+    .rfc {
+        font-size: .8rem;
+    }
+    a{
+        font-size: .65rem;  
+    }
+    .R{
+        font-size: .65rem;  
+    }
+    p{
+        font-size: .65rem;  
+    }
+}
