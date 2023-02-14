@@ -14,13 +14,13 @@ $(function () {
   $("#animate-button").click(function() {
     var $image = $("#image");
     if ($image.css("border-style") === "none") {
-      $image.css("border", "solid 10px silver");
+      $image.css("border", "solid 14px silver");
       } else {
       $image.css("border", "none");
       }
     });
   });
-  $(function() {
+$(function() {
     $("#animate-button").click(function() {
       if ($("#heading").css("color") === "rgb(255, 0, 0)") { 
         $("#heading").css("color", "silver"); 
